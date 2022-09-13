@@ -84,12 +84,12 @@
                                 <div class="col-2">
                                     <label for="inputReligion" class="form-label">Religion<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
                                     <select id="inputReligion" class="form-select" name="religion" required>
-                                        <option {{($student->religion == 'Islam')?'selected':null}}>Islam</option>
-                                        <option {{($student->religion == 'Hinduism')?'selected':null}}>Hinduism</option>
+                                        <!-- <option {{($student->religion == 'Islam')?'selected':null}}>Islam</option> -->
+                                        <!-- <option {{($student->religion == 'Hinduism')?'selected':null}}>Hinduism</option> -->
                                         <option {{($student->religion == 'Christianity')?'selected':null}}>Christianity</option>
-                                        <option {{($student->religion == 'Buddhism')?'selected':null}}>Buddhism</option>
-                                        <option {{($student->religion == 'Judaism')?'selected':null}}>Judaism</option>
-                                        <option {{($student->religion == 'Other')?'selected':null}}>Other</option>
+                                        <!-- <option {{($student->religion == 'Buddhism')?'selected':null}}>Buddhism</option> -->
+                                        <!-- <option {{($student->religion == 'Judaism')?'selected':null}}>Judaism</option> -->
+                                        <!-- <option {{($student->religion == 'Other')?'selected':null}}>Other</option> -->
                                     </select>
                                 </div>
                                 <div class="col-3">
