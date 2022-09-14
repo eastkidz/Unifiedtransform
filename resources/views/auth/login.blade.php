@@ -4,7 +4,8 @@
 <div class="container">
     
     <div class="row justify-content-center mt-4">
-        <div class="col-md-6">
+       
+    <div class="col-md-6">
             <div class="card">
                 <img src="../imgs/STTIP.png" class="rounded mx-auto d-block" alt="" width="100" height="91">
                 <!-- <div class="card-header bg-white">{{ __('Login') }}</div> -->
