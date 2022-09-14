@@ -84,17 +84,17 @@
                                 <div class="col-2">
                                     <label for="inputReligion" class="form-label">Religion<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
                                     <select id="inputReligion" class="form-select" name="religion" required>
-                                        <!-- <option {{($student->religion == 'Islam')?'selected':null}}>Islam</option> -->
-                                        <!-- <option {{($student->religion == 'Hinduism')?'selected':null}}>Hinduism</option> -->
                                         <option {{($student->religion == 'Christianity')?'selected':null}}>Christianity</option>
-                                        <!-- <option {{($student->religion == 'Buddhism')?'selected':null}}>Buddhism</option> -->
-                                        <!-- <option {{($student->religion == 'Judaism')?'selected':null}}>Judaism</option> -->
-                                        <!-- <option {{($student->religion == 'Other')?'selected':null}}>Other</option> -->
+                                        <option {{($student->religion == 'Islam')?'selected':null}}>Islam</option> 
+                                        <option {{($student->religion == 'Hinduism')?'selected':null}}>Hinduism</option> 
+                                        <option {{($student->religion == 'Buddhism')?'selected':null}}>Buddhism</option> 
+                                        <option {{($student->religion == 'Judaism')?'selected':null}}>Judaism</option> 
+                                        <option {{($student->religion == 'Other')?'selected':null}}>Other</option> 
                                     </select>
                                 </div>
                                 <div class="col-3">
                                     <label for="inputPhone" class="form-label">Phone<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
-                                    <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="+880 01......" required value="{{$student->phone}}">
+                                    <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="+62 08......" required value="{{$student->phone}}">
                                 </div>
                                 <div class="col-3">
                                     <label for="inputIdCardNumber" class="form-label">Id Card Number<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
@@ -109,7 +109,7 @@
                                 </div>
                                 <div class="col-3">
                                     <label for="inputFatherPhone" class="form-label">Father's Phone<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
-                                    <input type="text" class="form-control" id="inputFatherPhone" name="father_phone" placeholder="+880 01......" required value="{{$parent_info->father_phone}}">
+                                    <input type="text" class="form-control" id="inputFatherPhone" name="father_phone" placeholder="+62 08......" required value="{{$parent_info->father_phone}}">
                                 </div>
                                 <div class="col-3">
                                     <label for="inputMotherName" class="form-label">Mother Name<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
@@ -117,11 +117,11 @@
                                 </div>
                                 <div class="col-3">
                                     <label for="inputMotherPhone" class="form-label">Mother's Phone<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
-                                    <input type="text" class="form-control" id="inputMotherPhone" name="mother_phone" placeholder="+880 01......" required value="{{$parent_info->mother_phone}}">
+                                    <input type="text" class="form-control" id="inputMotherPhone" name="mother_phone" placeholder="+62 08......" required value="{{$parent_info->mother_phone}}">
                                 </div>
                                 <div class="col-4">
                                     <label for="inputParentAddress" class="form-label">Address<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
-                                    <input type="text" class="form-control" id="inputParentAddress" name="parent_address" placeholder="634 Main St" required value="{{$parent_info->parent_address}}">
+                                    <input type="text" class="form-control" id="inputParentAddress" name="parent_address" placeholder="Jalan..." required value="{{$parent_info->parent_address}}">
                                 </div>
                             </div>
                             <div class="row mt-4">
